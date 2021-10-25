@@ -1,0 +1,20 @@
+/* Classes são definidas por pontos
+e id é definida por hash
+uma id só pode ser usada um única vez por página */
+body{
+    background: #ccc;
+}
+#title, .subtitle, .post_title {
+    color: blue;
+}
+
+.post_title {
+    font-size: 16px;
+    font-style: italic;
+}
+.post {
+    background: white;
+    padding: 10px 10px 5px 0;
+    border: 3px solid black;
+    border-radius: 10px;
+}
