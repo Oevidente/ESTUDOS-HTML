@@ -2,19 +2,60 @@
 e id é definida por hash
 uma id só pode ser usada um única vez por página */
 body{
-    background: #ccc;
+    background: url(img/bg.png);
+    background-position: top;
+}
+.logo_index{
+    margin-left: 376px;
+    margin-top: 300,24px;
 }
 #title, .subtitle, .post_title {
-    color: blue;
-}
+    color: white;
+    font-family: 'Comfortaa', Helvetica;
 
+}
+#title{
+    /* text-decoration: overline; */
+    margin-top: 0;
+    font-weight: 700;
+    margin-left: 376px;
+    font-size: 50px;
+}
+.subtitle{
+    font-weight: 400;
+    margin-left: 206px;
+}
 .post_title {
+    color: #D63A59;
     font-size: 16px;
-    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+    margin-bottom: 15px;
 }
 .post {
     background: white;
-    padding: 10px 10px 5px 0;
-    border: 3px solid black;
+    padding: 15px;
+    border: 3px solid #D63A59;
     border-radius: 10px;
+    margin: 15px;
+    margin: auto 206px;
+}
+.post_content{
+    margin: 0;
+    margin-bottom: 15px;
+    font-family: 'Comfortaa';
+    font-weight: 600;
+    font-size: small;
+}
+.post_image{
+    margin: auto;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+.footer{
+    color: white;
+    font-family: 'Comfortaa';
+    font-weight: 700;
+    font-size: medium;
+    margin: auto 206px;
 }
