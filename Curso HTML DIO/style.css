@@ -4,6 +4,7 @@ uma id só pode ser usada um única vez por página */
 body{
     background: url(img/bg.png);
     background-position: top;
+
 }
 .logo_index{
     margin-left: 376px;
@@ -39,9 +40,10 @@ body{
     border-radius: 10px;
     margin: 15px;
     margin: auto 206px;
+    max-width: 1357.730px;
 }
 .post_content{
-    margin: 0;
+    margin: auto;
     margin-bottom: 15px;
     font-family: 'Comfortaa';
     font-weight: 600;
@@ -51,6 +53,7 @@ body{
     margin: auto;
     margin-bottom: 15px;
     border-radius: 5px;
+    width: 100%;
 }
 .footer{
     color: white;
@@ -58,4 +61,12 @@ body{
     font-weight: 700;
     font-size: medium;
     margin: auto 206px;
+}
+.contacts_list{
+    padding-left: 15px;
+    list-style-type: none;
+}
+.contacts_list li a{
+    color: white;
+    text-decoration: none;
 }
