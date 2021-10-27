@@ -35,7 +35,7 @@ body{
 .post {
     background: white;
     padding: 15px;
-    border: 3px solid #D63A59;
+    /* border: 3px solid #D63A59; */
     border-radius: 10px;
     margin: 15px;
     margin: auto 206px;
