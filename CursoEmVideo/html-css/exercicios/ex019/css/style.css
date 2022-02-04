@@ -1,0 +1,46 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
+* {
+  /* height: 100%; */
+  font-family: "Comfortaa", sans-serif;
+}
+
+body {
+  font-size: 16px;
+  /* 
+  Medidas Absolutas
+  cm, mm, in, px, pt, pc
+  
+  Medidas Relativas
+  em (relativa ao M maiúsculo da fonte), ex (Relativo à altura x da fonte), rem (relativo ao M da font Root que está configurada no body), Vw (largura da viewport),Vh (altura da viewport), %
+  
+  RECOMENDAÇÕES --> UTILIZAR PX (PIXELS) E EM (ALTURA M)
+
+  */
+  background-image: linear-gradient(to right, #CF7829, #82460D);
+}
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #3b2007af;
+  width: 600px;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+h1 {
+  color: #CF7829;
+  text-align: center;
+  text-shadow: 1px 1px 2px #563210;
+  font: normal bold 3em "Comfortaa", sans-serif;
+  /*Shorthand */
+}
+
+h2 {
+  color: #04724D
+}
+
+p {
+  text-align: justify;
+}

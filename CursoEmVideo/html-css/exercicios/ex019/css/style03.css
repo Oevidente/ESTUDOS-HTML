@@ -1,0 +1,37 @@
+@charset "utf-8";
+* {
+  font-family: "Cordelina", sans-serif;
+  src: url("../fonts/cordelina.otf") format("opentype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  font: normal 16px Arial, Verdana, serif;
+  background-image: linear-gradient(to right, #CF7829, #82460D);
+}
+
+main {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px #3b2007af;
+  width: 600px;
+  padding: 10px 30px;
+  margin: auto;
+}
+
+h1 {
+  color: #CF7829;
+  text-align: center;
+  text-shadow: 1px 1px 2px #563210;
+  /* font: normal bold 3em "Cordelina", sans-serif; */
+}
+
+h2 {
+  color: #04724D
+}
+
+p {
+  /* font: normal 16px Arial, sans-serif; */
+  text-align: justify;
+}
